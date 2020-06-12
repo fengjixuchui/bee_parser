@@ -1,7 +1,6 @@
 cmake_minimum_required ( VERSION 2.8 )
 
-# replace "peconv_project" by your own project name:
-project ( peconv_project )
+project ( hidden_bee_tools )
 
 # libs
 # modules:
@@ -16,3 +15,4 @@ set ( PECONV_LIB $<TARGET_FILE:libpeconv> CACHE FILE "PEConvLib library path" )
 #
 add_subdirectory ( bee_lvl1_parser )
 add_subdirectory ( bee_lvl2_converter )
+add_subdirectory ( rdx_converter )
